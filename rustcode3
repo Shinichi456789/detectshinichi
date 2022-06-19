@@ -1,0 +1,39 @@
+fn main(){
+    println!("Hello, world");
+}
+pub struct school{
+    students: HashMap<String, u32>
+}
+impl School{
+    pub fn new() ->School{
+        unimplemented!()
+    }
+    pub fn add(&mut self, grade:u32, student:&str){
+        "Alice co 7 diem",
+        "Bob co 7 diem",
+        "Nancy co 8 diem",
+        "David co 10 diem"
+    }
+    pub fn grades(&self)->Vec<u32>{
+       if let alice = 7 {
+           println!("Thêm sinh viên có tên "Alice" với điểm số là 7");
+       }
+       else if let all = 7 {
+           println!("Thì tất cả sinh viên có điểm số của trường là 7");
+       }
+       else if let Nancy= 8{
+          println!("Điểm số của nancy la 8");
+       }
+       else
+       {
+        println!("thì các điểm số hiện tại là [2,3]");
+       }
+    }
+    pub fn grade(&self, grade: u32) -> Vec<String> {
+        println!("Alice co 7 diem");
+        println!("Bob co 7 diem");
+        println!("David co 10 diem");
+        println!("Nancy co 8 diem");
+    }
+
+}
