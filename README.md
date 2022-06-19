@@ -1,0 +1,2 @@
+# detectshinichi
+Share all code
